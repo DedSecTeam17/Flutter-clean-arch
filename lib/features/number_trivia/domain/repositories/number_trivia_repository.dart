@@ -3,6 +3,8 @@ import 'package:tdd_tut/core/errors/failure.dart';
 
 import '../entities/number_trivia.dart';
 
+
+//contract
 abstract class NumberTriviaRepository {
   Future<Either<Failure, NumberTrivia>> getConcreteNumberTrivia(int number);
 
